@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Welcome to NearaNavi" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Shining a light on the local businesses you won't find anywhere else. <code>pages/index.js</code>
         </p>
       </main>
 
