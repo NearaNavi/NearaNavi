@@ -1,30 +1,6 @@
-import Head from 'next/head';
-import Header from '@components/Header';
-import Footer from '@components/Footer';
-import Link from 'next/link';
-
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <Header title="Welcome to NearaNavi" />
-        <p className="description">
-          Shining a light on the local businesses you won't find anywhere else. <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
-    </div>
-  )
-}import Head from 'next/head';
-import Header from '@components/Header';
-import Footer from '@components/Footer';
-
+import Header from '@components/Header'
+import Head   from 'next/head'
+import Footer from '@components/Footer'
 export default function Home() {
   return (
     <div className="container">
